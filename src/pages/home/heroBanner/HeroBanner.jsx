@@ -52,9 +52,9 @@ const HeroBanner = () => {
                             onKeyUp={searchQueryHandler}
                         />
                         <button onClick=(()=>{
-                            if(query.length > 0){
-                        navigate(`/search/${query}`}
-                                 })>Search</button>
+                            if(query.length > 0)
+                           navigate(`/search/${query}`)
+                        })>Search</button>
                     </div>
                 </div>
             </ContentWrapper>
